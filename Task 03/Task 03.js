@@ -43,3 +43,11 @@ var useraddcolor = prompt ("Enter a color you want to add");
 
 colour.splice(indexcolor, 0, useraddcolor);
 document.write(`After Adding colour in user index, Array is = ${colour} <br/>`);
+
+// G: Ask the user at which index he/she wants to delete color(s) & how many colors he/she wants to delete. Then remove the same number of color(s) from user-defined position/index. Display the updated array in your browser.
+
+var deletecolor1 = parseInt (prompt("Enter a number at which index you want to delete color"));
+var deletecolor2 = parseInt (prompt("Enter a number of quanity to delete color"));
+
+colour.splice(deletecolor1, deletecolor2);
+document.write(`After Adding colour in user index, Array is = ${colour} <br/>`);
